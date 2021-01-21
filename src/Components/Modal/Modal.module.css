@@ -1,0 +1,75 @@
+.Modal_grid {
+  position: fixed;
+  left: 26%;
+  width: 40rem;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  z-index: 200;
+}
+
+.Selected_coins,
+.Selected_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Selected_coins h3 {
+  text-decoration: underline;
+  color: rgb(20, 5, 75);
+}
+
+.Selected_logo {
+  border-right: 1px solid black;
+}
+
+.Logo {
+  margin-bottom: 2rem;
+}
+
+.Selected_logo i {
+  color: rgb(20, 5, 75);
+}
+
+.Selected_logo button {
+  margin: 2px;
+  padding: 8px;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(20, 5, 75);
+  border-radius: 5px;
+  color: white;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.Report {
+  padding: 2px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Report button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media (max-width: 500px) {
+  .Modal_grid {
+    position: fixed;
+    left: 5%;
+    width: 90%;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

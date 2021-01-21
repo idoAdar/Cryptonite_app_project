@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile_container {
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile_img {
+  padding: 15px;
+  border-radius: 50%;
+  height: 25rem;
+}
+
+.profile_text {
+  text-align: center;
+  color: rgb(20, 5, 75);
+}
+
+@media (max-width: 500px) {
+  .profile_img {
+    padding: 15px;
+    border-radius: 50%;
+    height: 15rem;
+  }
+}

@@ -1,0 +1,43 @@
+.Footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 5, 75);
+  position: relative;
+  bottom: -50px;
+  left: 0;
+}
+
+.IconFooter {
+  text-align: center;
+  padding: 10px;
+}
+
+.IconFooter h4 {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.IconFooter i {
+  color: white;
+  padding: 5px 15px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.IconFooter i:hover {
+  transform: scale(1.2);
+}
+
+.FooterContent h4,
+.FooterContent p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: 300;
+  text-transform: capitalize;
+}

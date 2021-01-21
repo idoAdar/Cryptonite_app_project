@@ -1,0 +1,12 @@
+.Empty {
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(20, 5, 75);
+  z-index: 200;
+}
+
+@media (max-width: 500px) {
+  .Empty {
+    padding: 10px;
+  }
+}

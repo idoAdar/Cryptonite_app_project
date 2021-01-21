@@ -1,0 +1,31 @@
+.Nav_container {
+  margin: 0 auto;
+  width: 73%;
+  height: 30px;
+  display: flex;
+}
+
+.Nav_container a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.Nav_container form {
+  padding-left: 2%;
+  display: flex;
+}
+
+.Active {
+  font-weight: 600;
+  background-color: rgb(20, 5, 75);
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .Nav_container {
+    width: 100%;
+  }
+}

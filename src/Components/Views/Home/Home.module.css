@@ -1,0 +1,51 @@
+.Parallax {
+  background-image: url("../../../mel-ghW_jLS8eAw-unsplash.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main_container {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Form_container {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 11rem;
+}
+
+.Form_container input[type="text"] {
+  outline: none;
+  border: 2px solid rgb(20, 5, 75);
+  border-radius: 5px 0 0 5px;
+  width: 10rem;
+  padding: 8px;
+}
+
+.Form_container button {
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(20, 5, 75);
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.Form_container input:focus {
+  background-color: rgb(233, 233, 233);
+}
+
+@media (max-width: 500px) {
+  .Form_container {
+    right: 0rem;
+  }
+}
